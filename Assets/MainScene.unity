@@ -15814,7 +15814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &1248492041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16109,7 +16109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10 POINTS
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16326,6 +16326,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6755648383989489392, guid: 2f3f2fa82e41e8148aebcae450674acf, type: 3}
   m_PrefabInstance: {fileID: 3447783800073035271}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1739633254 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8954951910623312379, guid: 2f3f2fa82e41e8148aebcae450674acf, type: 3}
+  m_PrefabInstance: {fileID: 3447783800073035271}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739633253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5ca0b0591613f4ea33818ef8b80fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1739633258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8346586722891498310, guid: 2f3f2fa82e41e8148aebcae450674acf, type: 3}
@@ -16364,7 +16375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1754588434
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16414,7 +16425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.70980394}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16544,6 +16555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 809248a702078d44693c9b2930790fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1739633254}
   scoreText: {fileID: 850447653}
   scoreAmount: 0
   pointIncreasedPerSecond: 0

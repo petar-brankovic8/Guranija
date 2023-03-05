@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ScorePerSecond : MonoBehaviour
 {
+    public PlayerMovement playerMovement;
     public Text scoreText;
     public float scoreAmount;
     public float pointIncreasedPerSecond;
@@ -16,7 +17,11 @@ public class ScorePerSecond : MonoBehaviour
 
     void Update()
     {
-            scoreText.text = "Score : " + (int)scoreAmount;
-            scoreAmount += pointIncreasedPerSecond * Time.deltaTime;
+            if (playerMovement.ziv )
+            {
+                scoreText.text = "Score : " + (int)scoreAmount;
+                scoreAmount += pointIncreasedPerSecond * Time.deltaTime;
+            }
+            
     }
 }
